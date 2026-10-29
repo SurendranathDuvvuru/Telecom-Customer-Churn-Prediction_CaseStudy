@@ -1,7 +1,8 @@
 # Telecom Customer Churn Prediction
 ## Overview
 Analyze telecom customer behavior and use machine learning to identify customers at risk of churn.
-Notebook: `Surendranath_Duvvuru.ipynb`.
+
+Notebook: `Telecom_Customer_Churn_Prediction.ipynb`.
 ## Objectives
 - Explore customer usage and clean the data.
 - Select high-value customers using June–July recharge behavior.
@@ -9,6 +10,7 @@ Notebook: `Surendranath_Duvvuru.ipynb`.
 - Engineer behavioral features and compare classification models.
 ## Tools
 Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
+
 Methods: Logistic Regression, Random Forest, PCA, and cross-validation.
 ## Workflow
 1. Inspect data types, missing values, and descriptive statistics.
@@ -20,13 +22,15 @@ Methods: Logistic Regression, Random Forest, PCA, and cross-validation.
 7. Compare sensitivity, specificity, ROC-AUC, and cross-validation scores.
 ## Results
 Saved outputs show high ROC-AUC; PCA + Logistic Regression reports higher churn sensitivity than Random Forest experiments.
+
 Rerun the notebook and check for data leakage before relying on results.
-## Supplied CSV
-`Surendranath_Duvvuru.csv` has 30,000 rows and columns `id` and `churn_probability`.
+## Data CSV
+`test.csv` has 30,000 rows and columns `id` and `churn_probability`.
+
 All churn values are `0`; there are no missing values.
-This CSV differs from the raw `test.csv` structure referenced in the notebook; verify its purpose before using it as input.
 ## Run
 Install: `pip install pandas numpy matplotlib seaborn scikit-learn jupyter`
-Add the correct source dataset, then run `jupyter notebook Surendranath_Duvvuru.ipynb`.
+
+Add source dataset, then run `jupyter notebook Telecom_Customer_Churn_Prediction.ipynb`.
 ## Business Use
-Use churn insights to guide retention offers, review roaming/calling packages, and investigate customer complaints.
+Use churn insights to guide retention offers, review roaming/ calling packages, and investigate customer complaints.
